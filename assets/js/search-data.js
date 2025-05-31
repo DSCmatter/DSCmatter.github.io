@@ -7,42 +7,42 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/books/";
+                window.location.href = "/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/blog/";
+                window.location.href = "/blog/";
               },
             },{id: "post-important-links",
         
@@ -52,7 +52,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2025/Important-Links/";
+            window.location.href = "/blog/2025/Important-Links/";
           
         },
       },{id: "post-resume-101-dscmatter",
@@ -81,7 +81,7 @@ ninja.data = [{
           title: 'Thousand Eons of World',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/al-folio/books/Thousand_eons_of_world/";
+              window.location.href = "/books/Thousand_eons_of_world/";
             },},{id: "news-first-edition-of-my-portfolio-blog-page",
           title: 'First edition of my portfolio/blog page 💀',
           description: "",
@@ -89,47 +89,47 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/1_project/";
+              window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_project/";
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/4_project/";
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/5_project/";
+              window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/6_project/";
+              window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/7_project/";
+              window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/8_project/";
+              window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/9_project/";
+              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-discord',
         title: 'Discord',
