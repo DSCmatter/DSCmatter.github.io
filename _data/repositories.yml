@@ -1,14 +1,16 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - DSCmatter
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - DSCmatter/TechNews-API
+  - DSCmatter/AWS-Serverless-Email-Marketing
+  - DSCmatter/URL-Compressor
+  - DSCmatter/AegisCC
+  - DSCmatter/WatcherX
+  - DSCmatter/MediAnalytics
+  - DSCmatter/B2C-Transpiler
+  - DSCmatter/SnowDBT_Pipeline
+  - DSCmatter/SentimentAnalysis
+  - DSCmatter/Steam-Games-Analysis-in-R

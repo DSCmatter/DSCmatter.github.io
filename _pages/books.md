@@ -1,13 +1,13 @@
 ---
 layout: book-shelf
-title: bookshelf
+title: My Novel(s)
 permalink: /books/
 nav: false
 collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+## [Thousand Eons of World](https://www.scribblehub.com/series/742017/thousand-eons-of-world/)
 
-## Books that I am reading, have read, or will read
+> Thousand Eons of World is an action-fantasy novel set in Eldoria, a semi-steampunk and advanced world. As an awakened and also a transmigrator, you will explore the hidden depths of Eldoria, uncovering secrets that may be divine—or perhaps something more...
+
+<!-- ## Books that I am reading, have read, or will read -->

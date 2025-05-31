@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+An IT undergrad @ MITS from India, soon to be a Junior. Currently, I’m diving into backend development, software engineering, ML/AI and some-cloud using C++/Python/JavaScript/Go. Outside coding, I enjoy gaming, reading fantasy novels.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m also exploring open source, AWS, and algorithms (though Leetcode isn’t my favorite). Find me on GitHub as [`DSCmatter`](https://github.com/DSCmatter), and feel free to reach out if you want to chat tech or just say hi! ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Check out my [`blog`](https://dscmatter.github.io/aboutblog/) for a good laugh!
