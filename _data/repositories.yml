@@ -6,6 +6,8 @@ repo_description_lines_max: 2
 github_repos:
   - DSCmatter/TechNews-API
   - DSCmatter/AWS-Serverless-Email-Marketing
+  - DSCmatter/WinsockComm
+  - DSCmatter/MyRedis
   - DSCmatter/URL-Compressor
   - DSCmatter/AegisCC
   - DSCmatter/WatcherX
