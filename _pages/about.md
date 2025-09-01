@@ -6,7 +6,7 @@ subtitle: <a href='https://www.linkedin.com/in/vasant-mogia/'>Affiliations</a>. 
 
 profile:
   align: right
-  image: mypic.jpg
+  image: sd.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Junior @ Madhav Institute of Technology and Science</p>
@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-An IT undergrad @ MITS from India, soon to be a Junior. Currently, I’m diving into backend development, software engineering, ML/AI and some-cloud using C++/Python/JavaScript/Go. Outside coding, I enjoy gaming, reading fantasy novels.
+An IT undergrad @ MITS from India, soon to be a Junior. Currently, I’m diving into backend development, software engineering and some-cloud. Outside coding, I enjoy gaming and reading fantasy novels.
 
 I’m also exploring open source, AWS, and algorithms (though Leetcode isn’t my favorite). Find me on GitHub as [`DSCmatter`](https://github.com/DSCmatter) and feel free to reach out through any socials, if you want to chat tech or just say hi! ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
 
-Check out my [`blog`](https://dscmatter.github.io/blog/)
+Check out my [`other site`](https://dscmatter.github.io/blog/)

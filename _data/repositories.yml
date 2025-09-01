@@ -1,7 +1,7 @@
 github_users:
   - DSCmatter
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
   - DSCmatter/TechNews-API
@@ -16,3 +16,7 @@ github_repos:
   - DSCmatter/SnowDBT_Pipeline
   - DSCmatter/SentimentAnalysis
   - DSCmatter/Steam-Games-Analysis-in-R
+  - DSCmatter/AI-RAG-chatbot-with-AWS_Bedrock
+  - DSCmatter/PredictWineQuality
+  - DSCmatter/PageCritic
+  - DSCmatter/codeFilesToFormat
