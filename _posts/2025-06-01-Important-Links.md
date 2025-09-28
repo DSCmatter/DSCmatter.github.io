@@ -15,17 +15,31 @@ This list will be updated regularly as soon as I find something more.
 
 ---
 
-#### Programming
+#### Programming & CS
 
 - [Learn JavaScript](https://javascript.info/js/)
 - [The Odin Project – Full Stack JS / Ruby on Rails](https://www.theodinproject.com/paths)
 - [Tour of Go](https://go.dev/tour/welcome/1)
+- [Teach yourself CS](https://teachyourselfcs.com/)
+- [ByteByteGo - Visual Guide](https://bytebytego.com/guides/)
+---
+
+#### Resume making
+
+- [Xue Tech](https://xue-mentorship.notion.site/Xue-s-Tech-Resume-Fundamentals-782e04922e004ffc89347753f21c8c5d#59746d5fc79a47399de6dc02b4f6ba6f)
 
 ---
 
 #### Jobs & Interviews
 
 - [1point3acres – Job Listings](https://jobs.1point3acres.com/)
+- [Neetcode](https://neetcode.io/)
+- [Leetcode Tutorial - Python](https://www.youtube.com/watch?v=lvO88XxNAzs)
+- [JobRails](https://jobails.com/)
+- [Glassdoor](https://www.glassdoor.co.in/Job/index.htm)
+- [Wellfound](https://wellfound.com/jobs)
+- [Indeed](https://in.indeed.com/?from=gnav-homepage)
+- [Linkedin](https://www.linkedin.com/jobs/)
 
 ---
 
@@ -35,7 +49,12 @@ This list will be updated regularly as soon as I find something more.
 - [Ruslan Spivak](https://ruslanspivak.com/)
 - [Austin Henley](https://austinhenley.com/index.html)
 - [Jesse Li](https://blog.jse.li/)
+- [Jeiwan](https://jeiwan.net/)
+- [Kasvith](https://kasvith.me/)
 - [practical-tutorials-Github](https://github.com/practical-tutorials/project-based-learning?tab=readme-ov-file)
+- [Project learn](https://github.com/Kay-Lander/ProjectLearn-Project-Based-Learning)
+- [Codecrafters](https://github.com/codecrafters-io/build-your-own-x)
+- [Cloud & Security Projects](https://learn.nextwork.org/)
 
 ---
 
@@ -58,12 +77,17 @@ This list will be updated regularly as soon as I find something more.
 - [Network Programming – Beej’s Guide](https://beej.us/guide/bgnet/html/split/index.html)
 - [Intro to Data Science – Orb Medium](https://medium.com/we-are-orb)
 - [Life, Philosophy, and Tech – mek.fyi](https://mek.fyi/)
+- [Learn Japanese - Hayai](https://www.hayailearn.com/)
+- [learn Anything](https://learn-anything.xyz/)
 
 ---
 
 #### Miscellaneous Resources
 
 - [The Programmer's Hangout – Resource Hub](https://theprogrammershangout.com/resources/)
+- [Pragmetic Engineer](https://blog.pragmaticengineer.com/)
+- [Quick Reference any lang](https://quickref.me/)
+- [Atlas - GPT for Academics](https://www.atlas.org/)
 
 ---
 

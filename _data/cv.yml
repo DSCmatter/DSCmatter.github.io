@@ -26,25 +26,22 @@
       description:
         - Applied Sciences and Computer Applications
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
+- title: Experience
+  type: time_table
+  contents:
+    - title: Software Engineer Intern 
+      institution: Metry AI, Remote
+      year: 2025
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+
+    - title: Student Researcher
+      institution: Madhav Institute of Technology and Science
+      year: 2025
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
 #     - title: Director
 #       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.

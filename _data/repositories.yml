@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - DarkenStars/ExplainableDocs-AI
   - DSCmatter/TechNews-API
   - DSCmatter/AWS-Serverless-Email-Marketing
   - DSCmatter/WinsockComm
