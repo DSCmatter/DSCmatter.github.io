@@ -22,6 +22,7 @@ This list will be updated regularly as soon as I find something more.
 - [Tour of Go](https://go.dev/tour/welcome/1)
 - [Teach yourself CS](https://teachyourselfcs.com/)
 - [ByteByteGo - Visual Guide](https://bytebytego.com/guides/)
+
 ---
 
 #### Resume making

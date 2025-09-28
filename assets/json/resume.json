@@ -21,8 +21,7 @@
       "studyType": "Bachelor of Technology",
       "startDate": "2023-09-23",
       "endDate": "2027-08-01",
-      "score": "7.20 (Current)",
-      "courses": ["Software Engineering", "Operating Systems", "Computer Networks", "Data Structures & Algorithms", "Computer Graphics", "DBMS", "Discrete Math", "Cryptography and Network Security"]
+      "courses": ["Software Engineering", "Operating Systems", "Computer Networks", "Data Structures & Algorithms", "Computer Graphics", "DBMS", "Discrete Math", "Cryptography and Network Security", "Data Science using Python", "Cloud Computing", "Probablity & Statistics", "Compiler Design", "Soft Computing"]
     },
     {
       "institution": "Delhi Public School Vijaipur",
@@ -32,6 +31,23 @@
       "startDate": "2021-06-20",
       "endDate": "2023-05-15",
       "courses": ["Physics", "Chemistry", "Maths", "Computer Applications"]
+    }
+  ],
+
+  "experience": [
+    {
+      "position": "Software Engineer Intern",
+      "company": "Metry AI",
+      "location": "Remote",
+      "daterange": "Sept 2025",
+      "description": []
+    },
+    {
+      "position": "Student Researcher",
+      "company": "Madhav Institute of Technology and Science",
+      "location": "Gwalior, Madhya Pradesh",
+      "daterange": " July 2025",
+      "description": []
     }
   ],
 
@@ -52,7 +68,7 @@
       "keywords": [
         "Python",
         "C++",
-        "JavaScript",
+        "TypeScript",
         "Go"
       ]
     },
@@ -63,11 +79,14 @@
         "Git",
         "Docker",
         "AWS",
-        "Firebase",
         "GCP",
+        "Firebase",
+        "Redis",
         "PostgreSQL",
-        "NodeJS",
-        "Express",
+        "Node.js",
+        "Express.js",
+        "FastAPI",
+        "Bash",
         "Hugo",
         "Linux"
       ]
