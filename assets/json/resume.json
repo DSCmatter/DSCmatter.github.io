@@ -29,6 +29,7 @@
         "DBMS",
         "Discrete Math",
         "Cryptography and Network Security",
+        "Engineering Mathematics I, II, III",
         "Data Science using Python",
         "Cloud Computing",
         "Probablity & Statistics",
@@ -56,14 +57,14 @@
       "position": "Software Engineer Intern",
       "company": "Metry AI",
       "location": "Remote",
-      "daterange": "Sept 2025",
+      "startDate": "2025-09",
       "description": []
     },
     {
       "position": "Student Researcher",
       "company": "Madhav Institute of Technology and Science",
       "location": "Gwalior, Madhya Pradesh",
-      "daterange": " July 2025",
+      "startDate": "2025-07",
       "description": []
     }
   ],
