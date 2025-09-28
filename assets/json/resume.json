@@ -12,7 +12,6 @@
       "region": "Central India"
     }
   },
-
   "education": [
     {
       "institution": "Madhav Institute of Technology and Science",
@@ -21,7 +20,21 @@
       "studyType": "Bachelor of Technology",
       "startDate": "2023-09-23",
       "endDate": "2027-08-01",
-      "courses": ["Software Engineering", "Operating Systems", "Computer Networks", "Data Structures & Algorithms", "Computer Graphics", "DBMS", "Discrete Math", "Cryptography and Network Security", "Data Science using Python", "Cloud Computing", "Probablity & Statistics", "Compiler Design", "Soft Computing"]
+      "courses": [
+        "Software Engineering",
+        "Operating Systems",
+        "Computer Networks",
+        "Data Structures & Algorithms",
+        "Computer Graphics",
+        "DBMS",
+        "Discrete Math",
+        "Cryptography and Network Security",
+        "Data Science using Python",
+        "Cloud Computing",
+        "Probablity & Statistics",
+        "Compiler Design",
+        "Soft Computing"
+      ]
     },
     {
       "institution": "Delhi Public School Vijaipur",
@@ -30,10 +43,14 @@
       "studyType": "High School",
       "startDate": "2021-06-20",
       "endDate": "2023-05-15",
-      "courses": ["Physics", "Chemistry", "Maths", "Computer Applications"]
+      "courses": [
+        "Physics",
+        "Chemistry",
+        "Maths",
+        "Computer Applications"
+      ]
     }
   ],
-
   "experience": [
     {
       "position": "Software Engineer Intern",
@@ -50,7 +67,6 @@
       "description": []
     }
   ],
-
   "certificates": [
     {
       "name": "Datacom Software Development Job Simulation",
@@ -60,7 +76,6 @@
       "icon": "fa-solid fa-location-dot"
     }
   ],
-
   "skills": [
     {
       "name": "Programming",
