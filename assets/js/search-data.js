@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-important-links",
+            },{id: "post-some-photos-from-games-played-in-2025",
+        
+          title: "Some photos from Games played in 2025",
+        
+        description: "Memory",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/SS/";
+          
+        },
+      },{id: "post-important-links",
         
           title: "Important Links",
         
