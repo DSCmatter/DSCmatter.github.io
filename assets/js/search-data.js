@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "My growing collection of cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -89,7 +96,22 @@ ninja.data = [{
             },},{id: "news-first-edition-of-my-portfolio-blog-page",
           title: 'First edition of my portfolio/blog page 💀',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-agentic-firewall",
+          title: 'Agentic Firewall',
+          description: "An intelligent firewall system with agent-based decision making",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/agentic_firewall/";
+            },},{id: "projects-kpoptcha",
+          title: 'Kpoptcha',
+          description: "An interactive CAPTCHA game - can you identify the K-pop idols?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/kpoptcha/";
+            },},{id: "projects-myredis",
+          title: 'MyRedis',
+          description: "A Redis clone implementation built from scratch in Go",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/myredis/";
+            },},{
         id: 'social-discord',
         title: 'Discord',
         section: 'Socials',
