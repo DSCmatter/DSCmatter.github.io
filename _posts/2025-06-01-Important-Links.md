@@ -11,6 +11,8 @@ I thought going through a lot of bookmarks was tiresome — so here we are.
 Below is a curated list of useful links, sorted by category. Save for later or share with friends who might need them.
 This list will be updated regularly as soon as I find something more.
 
+These lists have helped me personally, so I can vouch for their reliability.
+
 ![](https://media.tenor.com/_V3NTMsgNzgAAAAM/smart-thinking.gif)
 
 ---
@@ -22,25 +24,39 @@ This list will be updated regularly as soon as I find something more.
 - [Tour of Go](https://go.dev/tour/welcome/1)
 - [Teach yourself CS](https://teachyourselfcs.com/)
 - [ByteByteGo - Visual Guide](https://bytebytego.com/guides/)
+- [Beej's Guide](https://beej.us/guide/)
+- [Beej's Guide to CS/SWE](https://beej.us/guide/bglcs/html/)
 
 ---
 
 #### Resume making
 
 - [Xue Tech](https://xue-mentorship.notion.site/Xue-s-Tech-Resume-Fundamentals-782e04922e004ffc89347753f21c8c5d#59746d5fc79a47399de6dc02b4f6ba6f)
+- [wiki.developersindia](https://wiki.developersindia.in/community-guides/how-to-create-an-ideal-software-engineering-resume.html)
+- [Harvard tips for resume](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/)
 
 ---
 
-#### Jobs & Interviews
+#### Job apply 
 
-- [1point3acres – Job Listings](https://jobs.1point3acres.com/)
-- [Neetcode](https://neetcode.io/)
-- [Leetcode Tutorial - Python](https://www.youtube.com/watch?v=lvO88XxNAzs)
 - [JobRails](https://jobails.com/)
 - [Glassdoor](https://www.glassdoor.co.in/Job/index.htm)
 - [Wellfound](https://wellfound.com/jobs)
 - [Indeed](https://in.indeed.com/?from=gnav-homepage)
 - [Linkedin](https://www.linkedin.com/jobs/)
+- [Hiring cafe](https://hiring.cafe/)
+- [1point3acres](https://jobs.1point3acres.com/)
+- [Peerlist](https://peerlist.io/)
+- [Opportunities Corner (mainly for Students)](https://opportunitiescorners.com/)
+
+#### Interviews 
+
+- [Neetcode](https://neetcode.io/)
+- [Python for Coding Interviews](https://www.youtube.com/watch?v=0K_eZGS5NsU&t=664s)
+- [Leetcode Tutorial - 70+ questions in 5+ hrs](https://www.youtube.com/watch?v=lvO88XxNAzs)
+- [Leetcode](https://leetcode.com/)
+- [Codeforces (Only for Quant/trading firms)](https://codeforces.com/)
+- [CSES](https://cses.fi/)
 
 ---
 
@@ -62,6 +78,7 @@ This list will be updated regularly as soon as I find something more.
 #### Libraries & Archives
 
 - [Anna's Archive – Free Books & Papers](https://annas-archive.org/)
+- [Library Genesis](https://libgen.ac/)
 
 ---
 
@@ -70,6 +87,8 @@ This list will be updated regularly as soon as I find something more.
 - [MIT OpenCourseWare](https://ocw.mit.edu/)
 - [Fireship – Web Dev & More](https://fireship.io/courses)
 - [Neetcode – Interview Prep](https://neetcode.io/courses)
+- [Standford CS229 ML course by Andrew Ng](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
+- [From TCP to HTTP by Primeagean (in Go)](https://www.youtube.com/watch?v=FknTw9bJsXM&t=248s)
 
 ---
 
@@ -86,7 +105,7 @@ This list will be updated regularly as soon as I find something more.
 #### Miscellaneous Resources
 
 - [The Programmer's Hangout – Resource Hub](https://theprogrammershangout.com/resources/)
-- [Pragmetic Engineer](https://blog.pragmaticengineer.com/)
+- [Pragmatic Engineer](https://blog.pragmaticengineer.com/)
 - [Quick Reference any lang](https://quickref.me/)
 - [Atlas - GPT for Academics](https://www.atlas.org/)
 

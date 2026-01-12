@@ -33,7 +33,7 @@
         "Engineering Mathematics I, II, III",
         "Data Science using Python",
         "Cloud Computing",
-        "Probablity & Statistics",
+        "Probability & Statistics",
         "Compiler Design",
         "Soft Computing"
       ]
@@ -66,16 +66,8 @@
       "name": "Madhav Institute of Technology and Science",
       "location": "Gwalior, Madhya Pradesh",
       "startDate": "2025-07",
+      "end Date": "2025-11",
       "description": []
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Datacom Software Development Job Simulation",
-      "date": "2025-02-01",
-      "issuer": "Forage",
-      "url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/gCW7Xki5Y3vNpBmnn/L3NcyCoAjLno9d3T9_gCW7Xki5Y3vNpBmnn_nuCp2bB8r4gLEfiXt_1740001924574_completion_certificate.pdf",
-      "icon": "fa-solid fa-location-dot"
     }
   ],
   "skills": [

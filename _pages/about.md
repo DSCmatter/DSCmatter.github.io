@@ -9,8 +9,8 @@ profile:
   image: sd.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Junior @ Madhav Institute of Technology and Science</p>
-    <p>Gwalior, Madhya Pradesh</p>
+    <p>Student @ Madhav Institute of Technology and Science</p>
+    <p>India</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
