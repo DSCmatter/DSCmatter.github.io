@@ -111,6 +111,16 @@ ninja.data = [{
           description: "A Redis clone implementation built from scratch in Go",
           section: "Projects",handler: () => {
               window.location.href = "/projects/myredis/";
+            },},{id: "projects-verifact",
+          title: 'VeriFact',
+          description: "AI-powered fact-checking system with evidence-backed explanations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/verifact/";
+            },},{id: "projects-watcherx",
+          title: 'WatcherX',
+          description: "File monitoring and automation system",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/watcherx/";
             },},{
         id: 'social-discord',
         title: 'Discord',
