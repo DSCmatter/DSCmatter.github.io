@@ -7,6 +7,10 @@ nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+_styles: >
+  .post-description {
+    font-size: 1.25rem;
+  }
 ---
 
 <!-- pages/projects.md -->
