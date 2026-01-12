@@ -2,13 +2,13 @@
 layout: page
 title: MyRedis
 description: A Redis clone implementation built from scratch in Go
-img: assets/img/redi22.png
+img: assets/img/redis22.png
 importance: 1
 category: work
 github: https://github.com/DSCmatter/MyRedis
 ---
 
-![](../assets/img/redisss.png)
+![alt text](../assets/img/redisss.png)
 
 MyRedis is a Redis clone implementation built from scratch to understand the internals of in-memory data stores and network protocols.
 
