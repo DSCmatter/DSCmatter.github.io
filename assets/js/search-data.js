@@ -118,7 +118,7 @@ ninja.data = [{
               window.location.href = "/projects/verifact/";
             },},{id: "projects-watcherx",
           title: 'WatcherX',
-          description: "File monitoring and automation system",
+          description: "A skeleton based around a video-sharing platform which enables users to upload, process, and share videos efficiently.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/watcherx/";
             },},{
