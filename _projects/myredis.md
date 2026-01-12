@@ -8,7 +8,7 @@ category: work
 github: https://github.com/DSCmatter/MyRedis
 ---
 
-![](redisss.png)
+![!()](../assets/img/redisss.png)
 
 MyRedis is a Redis clone implementation built from scratch to understand the internals of in-memory data stores and network protocols.
 
@@ -21,6 +21,7 @@ MyRedis is a Redis clone implementation built from scratch to understand the int
 - Go
 - Redis Protocol (RESP)
 - Networking
+- Bash
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
