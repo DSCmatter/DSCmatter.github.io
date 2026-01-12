@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Important Links
-date: 2025-05-31 
+date: 2026-01-12 
 description: Some links that may help someday
 tags: links
 categories: Resources
 ---
+
+> Heya everyone! 
+> A little update by my side and welcome to 2026 (ง •̀_•́)ง
 
 I thought going through a lot of bookmarks was tiresome — so here we are.  
 Below is a curated list of useful links, sorted by category. Save for later or share with friends who might need them.
@@ -48,6 +51,8 @@ These lists have helped me personally, so I can vouch for their reliability.
 - [1point3acres](https://jobs.1point3acres.com/)
 - [Peerlist](https://peerlist.io/)
 - [Opportunities Corner (mainly for Students)](https://opportunitiescorners.com/)
+
+--- 
 
 #### Interviews 
 
@@ -120,8 +125,4 @@ These lists have helped me personally, so I can vouch for their reliability.
 > "Knowledge is power. Applied knowledge is superpower."  
 > — Anonymous
 
----
-
 Let me know if you come across any other gems worth adding!
-
----

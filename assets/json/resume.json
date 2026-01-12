@@ -66,7 +66,7 @@
       "name": "Madhav Institute of Technology and Science",
       "location": "Gwalior, Madhya Pradesh",
       "startDate": "2025-07",
-      "end Date": "2025-11",
+      "endDate": "2025-11",
       "description": []
     }
   ],
@@ -90,7 +90,6 @@
         "AWS",
         "GCP",
         "Firebase",
-        "Redis",
         "PostgreSQL",
         "Node.js",
         "Express.js",
