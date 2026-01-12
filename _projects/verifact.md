@@ -2,13 +2,13 @@
 layout: page
 title: VeriFact
 description: AI-powered fact-checking system with evidence-backed explanations
-img: assets/img/docsai.png
+img: assets/img/verifact.png
 importance: 3
 category: work
 github: https://github.com/DarkenStars/VeriFact
 ---
 
-![alt text](../assets/img/docsai.png)
+![](../assets/img/docsai.png)
 
 A fact-checking system that verifies user claims with evidence-backed explanations using web searches and AI, delivering clear, transparent verdicts through a simple interface.
 
