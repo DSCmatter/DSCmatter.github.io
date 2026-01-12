@@ -8,7 +8,7 @@ category: work
 github: https://github.com/DarkenStars/VeriFact
 ---
 
-![](../assets/img/docsai.png)
+![alt text](https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyYTQyc2Exbjl3eXE1b3B0dW8yYzF1eWJqZXFnZmZoOXplb3BuemJtZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wkptZ8PiPM5SDH8049/giphy.gif)
 
 A fact-checking system that verifies user claims with evidence-backed explanations using web searches and AI, delivering clear, transparent verdicts through a simple interface.
 

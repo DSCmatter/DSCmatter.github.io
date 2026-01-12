@@ -8,7 +8,7 @@ category: work
 github: https://github.com/DSCmatter/MyRedis
 ---
 
-![alt text](../assets/img/redisss.png)
+![alt text](https://media.tenor.com/IQ6Z-aPhr1wAAAAM/date-everywhere-data.gif)
 
 MyRedis is a Redis clone implementation built from scratch to understand the internals of in-memory data stores and network protocols.
 
