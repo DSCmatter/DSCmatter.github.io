@@ -9,8 +9,7 @@ profile:
   image: sd.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Student/SWE</p>
-    <p>India</p>
+    <p>Software Engineer in the making</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,6 +29,6 @@ I’m a CS undergrad at MITS, India and also SWE Intern @ Metry AI. Still figuri
 
 Lately, I’ve been exploring open source, AWS, and algorithms—though [LeetCode](https://leetcode.com/u/MyNightmare/) isn’t really my thing. (｡•́︿•̀｡) 
 
-You can find me on GitHub as [DSCmatter](https://github.com/DSCmatter) free to reach out on any social if you want to chat or just say hi ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
+You can find me on GitHub as [DSCmatter](https://github.com/DSCmatter) feel free to reach out on any social if you want to chat or just say hi ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
 
 Check out my [`other site`](https://dscmatter.github.io/blog/)
