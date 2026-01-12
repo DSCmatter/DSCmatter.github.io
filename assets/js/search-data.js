@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -44,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-some-photos-from-games-played-in-2025",
+            },{id: "post-important-links",
+        
+          title: "Important Links",
+        
+        description: "Some links that may help someday",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/Important-Links/";
+          
+        },
+      },{id: "post-some-photos-from-games-played-in-2025",
         
           title: "Some photos from Games played in 2025",
         
@@ -53,17 +57,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/SS/";
-          
-        },
-      },{id: "post-important-links",
-        
-          title: "Important Links",
-        
-        description: "Some links that may help someday",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Important-Links/";
           
         },
       },{id: "post-resume-101-dscmatter",
