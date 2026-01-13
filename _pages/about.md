@@ -25,14 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-From the ledger of the present age:
+I’m a student exploring the world of CS. I’m still early in the journey and learning by building and doing and whatnot.
 
-I walk the early path of computation, a student of the craft, and serve in season currently as a Software engineer. (⌐■_■) Much remains unwritten before me, and I learn by forward motion rather than certainty.
+Outside of work, I enjoy gaming and reading fantasy novels, and I’ve also written a [novel](https://www.scribblehub.com/series/742017/thousand-eons-of-world/) myself. Lately, I’ve been spending more time with open source and brushing up on algorithms—[LeetCode](https://leetcode.com/u/MyNightmare/) included, even if it’s not my favorite path.
 
-When the engines rest, I turn to other realms—contests of skill within gaming and chronicles of fantasy where old powers still breathe through ink and myth. I have also set ink to page myself, and written a [novel](https://www.scribblehub.com/series/742017/thousand-eons-of-world/). ( .. )φ
-
-In recent cycles, I have set my gaze upon open source and the study of algorithms. The trials of [LeetCode](https://leetcode.com/u/MyNightmare/), lie before me, though they are not the road I favor. ( ￣ ￣ )
-
-My works are gathered under the name [DSCmatter](https://github.com/DSCmatter) in the halls of GitHub. Those who wish to speak, exchange ideas, or simply signal their presence may do so freely. ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
-
-There is also another record of my thoughts and experiments, kept apart on a [blog](https://dscmatter.github.io/blog/), for those inclined to read further.
+Most of my work lives on GitHub under the name [DSCmatter](https://github.com/DSCmatter), and I’m always open to conversations, ideas, or collaboration. I also keep a separate [blog](https://dscmatter.github.io/blog/) where I write more about my thoughts and experiments.
