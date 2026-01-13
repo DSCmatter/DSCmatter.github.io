@@ -2,7 +2,7 @@
 layout: page
 title: Agentic Firewall
 description: An intelligent firewall system with agent-based decision making
-img: assets/img/robot.png
+img: assets/img/roboo.png
 importance: 2
 category: work
 github: https://github.com/DSCmatter/Agentic_Firewall
