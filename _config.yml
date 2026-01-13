@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: DSCmatter # the website title (if blank, full name will be used instead)
-first_name: Vasant
-middle_name: Kumar
-last_name: Mogia
+first_name: DSCmatter
+middle_name:
+last_name:
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 keywords: software engineer, backend developer, python, golang, aws, open source, web development, cloud computing, student developer, intern  # add your own keywords or leave empty
