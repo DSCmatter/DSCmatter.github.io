@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Important Links
-date: 2026-01-12 
+date: 2026-02-18 
 description: Some links that may help someday
 tags: links
 categories: Resources
@@ -29,6 +29,8 @@ These lists have helped me personally, so I can vouch for their reliability.
 - [ByteByteGo - Visual Guide](https://bytebytego.com/guides/)
 - [Beej's Guide](https://beej.us/guide/)
 - [Beej's Guide to CS/SWE](https://beej.us/guide/bglcs/html/)
+- [Valley of Code](https://thevalleyofcode.com/)
+- [Learn X in Y minutes](https://learnxinyminutes.com/)
 
 ---
 
@@ -37,6 +39,7 @@ These lists have helped me personally, so I can vouch for their reliability.
 - [Xue Tech](https://xue-mentorship.notion.site/Xue-s-Tech-Resume-Fundamentals-782e04922e004ffc89347753f21c8c5d#59746d5fc79a47399de6dc02b4f6ba6f)
 - [wiki.developersindia](https://wiki.developersindia.in/community-guides/how-to-create-an-ideal-software-engineering-resume.html)
 - [Harvard tips for resume](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/)
+- [Resume 101 by by me](https://dscmatter.me/aboutblog/posts/resume-101/)
 
 ---
 
@@ -62,6 +65,7 @@ These lists have helped me personally, so I can vouch for their reliability.
 - [Leetcode](https://leetcode.com/)
 - [Codeforces (Only for Quant/trading firms)](https://codeforces.com/)
 - [CSES](https://cses.fi/)
+- [pracHub - List of Questions asked in companies](https://prachub.com/questions)
 
 ---
 
@@ -113,6 +117,7 @@ These lists have helped me personally, so I can vouch for their reliability.
 - [Pragmatic Engineer](https://blog.pragmaticengineer.com/)
 - [Quick Reference any lang](https://quickref.me/)
 - [Atlas - GPT for Academics](https://www.atlas.org/)
+- [Streaming services / Time pass](https://tbcpl.lol/)
 
 ---
 

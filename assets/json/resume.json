@@ -1,16 +1,9 @@
 {
   "basics": {
     "name": "Vasant Kumar Mogia",
-    "label": "Student",
     "image": "mypic.jpg",
     "email": "vasant.mogia@gmail.com",
-    "phone": "+91 9302609911",
-    "url": "https://dscmatter.github.io/",
-    "location": {
-      "city": "Gwalior",
-      "countryCode": "IN",
-      "region": "Central India"
-    }
+    "url": "https://dscmatter.me/"
   },
   "education": [
     {
@@ -19,13 +12,14 @@
       "area": "Information Technology",
       "studyType": "Bachelor of Technology",
       "startDate": "2023-09-23",
-      "endDate": "2027-08-01",
+      "endDate": "2027-05-01",
       "courses": [
         "Software Engineering",
         "Operating Systems",
         "Computer Networks",
         "Data Structures & Algorithms",
         "Computer Graphics",
+        "Digital Logic Design",
         "DBMS",
         "Discrete Math",
         "Cryptography and Network Security",
@@ -35,30 +29,27 @@
         "Cloud Computing",
         "Probability & Statistics",
         "Compiler Design",
-        "Soft Computing"
-      ]
-    },
-    {
-      "institution": "Delhi Public School Vijaipur",
-      "location": "Guna, Madhya Pradesh",
-      "area": "Applied Sciences & Computer Applications",
-      "studyType": "High School",
-      "startDate": "2021-06-20",
-      "endDate": "2023-05-15",
-      "courses": [
-        "Physics",
-        "Chemistry",
-        "Maths",
-        "Computer Applications"
+        "Soft Computing",
+        "Artifical Interlligence & Machine Learning",
+        "Data Warehousing & Data Mining",
+        "Information Retrieval System"
       ]
     }
   ],
   "work": [
     {
+      "position": "Undergraduate Research Assistant",
+      "name": "Madhav Institute of Technology and Science",
+      "location": "Gwalior, Madhya Pradesh",
+      "startDate": "2026-01",
+      "description": []
+    },
+    {
       "position": "Software Engineer Intern",
       "name": "Metry AI",
-      "location": "Remote",
+      "location": "Remote (Canada)",
       "startDate": "2025-09",
+      "endDate": "2026-02",
       "description": []
     },
     {
@@ -76,9 +67,9 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Python",
-        "C++",
+        "Go",
         "TypeScript",
-        "Go"
+        "C++"
       ]
     },
     {
@@ -91,12 +82,13 @@
         "GCP",
         "Firebase",
         "PostgreSQL",
+        "DynamoDB",
         "Node.js",
         "Express.js",
-        "FastAPI",
+        "Next.js",
+        "TensorFlow",
         "Bash",
-        "Hugo",
-        "Linux"
+        "Ubuntu"
       ]
     }
   ],
