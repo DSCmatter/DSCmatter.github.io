@@ -8,7 +8,7 @@ category: work
 github: https://github.com/DSCmatter/Dryfruit_Grade_Classification
 ---
 
-![](https://i.redd.it/80ilrelaucz61.png)
+<img src="https://i.redd.it/80ilrelaucz61.png" class="img-fluid rounded z-depth-1" alt="Dry Fruits">
 
 A deep learning model to classify images of dry fruits (such as almonds and cashews) into different quality grades (for example, Grade A and Grade B).
 

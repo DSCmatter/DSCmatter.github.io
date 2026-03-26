@@ -3,7 +3,7 @@ layout: page
 title: WatcherX
 description: A skeleton based around a video-sharing platform which enables users to upload, process, and share videos efficiently.
 img: assets/img/cloud.jpg
-importance: 4
+importance: 2
 category: work
 github: https://github.com/DSCmatter/WatcherX
 ---

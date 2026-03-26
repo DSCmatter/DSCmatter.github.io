@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-First edition of my portfolio/blog page 💀
+Looking For Collaborators - [Letia Subconscious](https://dscmatter.me/blog/2026/letia-subs/)

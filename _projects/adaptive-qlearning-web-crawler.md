@@ -29,6 +29,17 @@ A novel hybrid approach to focused web crawling that combines three complementar
 5. **Reward Signal**: Positive rewards for target-domain discoveries, penalties for inefficient navigation
 6. **Adaptive Crawling**: System dynamically improves link selection based on cumulative rewards
 
+### How it works (simple)
+Think of it like a person browsing Wikipedia trying to stay on the topic of Machine Learning.
+
+GNN — gives the crawler a map of where it is. "I'm in this neighborhood of the web, these pages are nearby." Frozen after training, just used for context.
+Bandit (LinUCB) — when the crawler sees 50 links on a page, this picks the best one. Like a slot machine learner, it balances "go with what's worked before" vs "try something new."
+Q-Learning — the boss layer. After each page, it decides: keep going or stop? Prevents the crawler from going down rabbit holes and wasting time.
+
+### The loop
+
+visit page → look at links → Q-agent says continue → bandit picks best link → visit that page → repeat
+
 ### Technologies Used
 - **Reinforcement Learning**: Q-Learning, Contextual Bandits (LinUCB)
 - **Graph Neural Networks**: PyTorch, GraphSAGE (SAGEConv)

@@ -3,7 +3,7 @@ layout: page
 title: VeriFact
 description: AI-powered fact-checking system with evidence-backed explanations
 img: assets/img/verifact.png
-importance: 3
+importance: 2
 category: work
 github: https://github.com/DarkenStars/VeriFact
 ---

@@ -8,7 +8,7 @@ category: work
 github: https://github.com/DSCmatter/AegisCC
 ---
 
-![](https://i.redd.it/cqofb7f1m7491.gif)
+<img src="https://i.redd.it/cqofb7f1m7491.gif" class="img-fluid rounded z-depth-1" alt="AegisCC Demo">
 
 A low-level systems project showcasing dynamic x86-64 assembly instruction generation and runtime execution through executable memory allocation in C++.
 
