@@ -44,7 +44,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-video-games-played-in-2025-26",
+            },{id: "post-500-applications-one-project-one-break",
+        
+          title: "500 Applications, One Project, One Break",
+        
+        description: "A story about job search silence, building in public, and how one project opened the right door",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/one-project-changed-everything/";
+          
+        },
+      },{id: "post-looking-for-collaborators-letia-subconscious",
+        
+          title: "Looking For Collaborators - Letia Subconscious",
+        
+        description: "Open call for collaborators on the Letia Subconscious project - subconscious for your coding agents and AI assistants, designed to persist context across sessions and tools.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/letia-subs/";
+          
+        },
+      },{id: "post-video-games-played-in-2025-26",
         
           title: "Video Games played in 2025-26",
         
@@ -107,11 +129,26 @@ ninja.data = [{
             },},{id: "news-first-edition-of-my-portfolio-blog-page",
           title: 'First edition of my portfolio/blog page 💀',
           description: "",
-          section: "News",},{id: "projects-agentic-firewall",
+          section: "News",},{id: "projects-adaptive-q-learning-web-crawler",
+          title: 'Adaptive Q-Learning Web Crawler',
+          description: "A hybrid reinforcement learning system combining Q-Learning, Contextual Bandits, and Graph Neural Networks for intelligent focused web crawling",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/adaptive-qlearning-web-crawler/";
+            },},{id: "projects-aegiscc",
+          title: 'AegisCC',
+          description: "A minimalistic x86-64 JIT compiler demonstrating dynamic machine code generation and execution",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aegiscc/";
+            },},{id: "projects-agentic-firewall",
           title: 'Agentic Firewall',
           description: "An intelligent firewall system with agent-based decision making",
           section: "Projects",handler: () => {
               window.location.href = "/projects/agentic_firewall/";
+            },},{id: "projects-dry-fruit-grade-classification",
+          title: 'Dry Fruit Grade Classification',
+          description: "A deep learning model to classify images of dry fruits (such as almonds and cashews) into different quality grades (for example, Grade A and Grade B).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/grade-classification/";
             },},{id: "projects-kpoptcha",
           title: 'Kpoptcha',
           description: "An interactive CAPTCHA game - can you identify the K-pop idols?",
