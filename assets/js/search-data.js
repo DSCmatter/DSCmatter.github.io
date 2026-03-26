@@ -126,8 +126,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Thousand_eons_of_world/";
-            },},{id: "news-first-edition-of-my-portfolio-blog-page",
-          title: 'First edition of my portfolio/blog page 💀',
+            },},{id: "news-looking-for-collaborators-letia-subconscious",
+          title: 'Looking For Collaborators - Letia Subconscious',
           description: "",
           section: "News",},{id: "projects-adaptive-q-learning-web-crawler",
           title: 'Adaptive Q-Learning Web Crawler',
