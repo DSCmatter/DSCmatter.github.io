@@ -30,13 +30,20 @@
         "Probability & Statistics",
         "Compiler Design",
         "Soft Computing",
-        "Artifical Interlligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning",
         "Data Warehousing & Data Mining",
         "Information Retrieval System"
       ]
     }
   ],
   "work": [
+    {
+      "position": "Software Engineer (Contract)",
+      "name": "The Tinkering Society",
+      "location": "Remote",
+      "startDate": "2026-02",
+      "description": []
+    },
     {
       "position": "Undergraduate Research Assistant",
       "name": "Madhav Institute of Technology and Science",
@@ -83,12 +90,14 @@
         "Firebase",
         "PostgreSQL",
         "DynamoDB",
+        "SQLite",
         "Node.js",
         "Express.js",
         "Next.js",
+        "ethers.js",
         "TensorFlow",
         "Bash",
-        "Ubuntu"
+        "Linux"
       ]
     }
   ],

@@ -9,7 +9,7 @@ profile:
   image: sd.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Software Engineer in the making</p>
+    <p>Software Engineer</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,8 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a student exploring the world of CS. I’m still early in the journey and learning by building and doing and whatnot.
+I'm Vasant, a CS student and building things at the intersection of software, AI, and backend infrastructure.
 
-Outside of work, I enjoy gaming and reading fantasy novels, and I’ve also written a [novel](https://www.scribblehub.com/series/742017/thousand-eons-of-world/) myself. Lately, I’ve been spending more time with open source and brushing up on algorithms—[LeetCode](https://leetcode.com/u/MyNightmare/) included, even if it’s not my favorite path.
+I've worked as a software engineer at The Tinkering Society, building a decentralized fact-verification protocol on Base L2, and previously interned at Metry AI where I rebuilt their website and worked on a churn prediction pipeline. I also contribute to open source when something interesting comes up.
 
-Most of my work lives on GitHub under the name [DSCmatter](https://github.com/DSCmatter), and I’m always open to conversations, ideas, or collaboration. I also keep a separate [blog](https://dscmatter.github.io/blog/) where I write more about my thoughts and experiments.
+Most of my work lives on GitHub under [DSCmatter](https://github.com/DSCmatter), where you'll find projects ranging from deep learning models to distributed systems. I'm always open to conversations, collaboration, or just talking about interesting problems in software and systems design.
+
+Outside of code, I game, read fantasy novels, and occasionally write them.
