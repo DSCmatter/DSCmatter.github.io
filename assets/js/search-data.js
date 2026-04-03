@@ -55,17 +55,6 @@ ninja.data = [{
             window.location.href = "/blog/2026/one-project-changed-everything/";
           
         },
-      },{id: "post-looking-for-collaborators-letia-subconscious",
-        
-          title: "Looking For Collaborators - Letia Subconscious",
-        
-        description: "Open call for collaborators on the Letia Subconscious project - subconscious for your coding agents and AI assistants, designed to persist context across sessions and tools.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/letia-subs/";
-          
-        },
       },{id: "post-video-games-played-in-2025-26",
         
           title: "Video Games played in 2025-26",
@@ -126,8 +115,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Thousand_eons_of_world/";
-            },},{id: "news-looking-for-collaborators-letia-subconscious",
-          title: 'Looking For Collaborators - Letia Subconscious',
+            },},{id: "news-",
+          title: '',
           description: "",
           section: "News",},{id: "projects-adaptive-q-learning-web-crawler",
           title: 'Adaptive Q-Learning Web Crawler',
