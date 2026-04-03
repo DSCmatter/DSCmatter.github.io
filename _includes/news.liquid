@@ -15,10 +15,22 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
+          {% assign latest_post = nil %}
+          {% assign display_date = item.date %}
+          {% if item.latest_post %}
+            {% assign latest_post = site.posts.first %}
+            {% if latest_post %}
+              {% assign display_date = latest_post.date %}
+            {% endif %}
+          {% endif %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 20%">{{ display_date | date: '%b %d, %Y' }}</th>
             <td>
-              {% if item.inline %}
+              {% if item.latest_post and latest_post %}
+                <a class="news-title" href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a>
+              {% elsif item.latest_post %}
+                No posts so far...
+              {% elsif item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>

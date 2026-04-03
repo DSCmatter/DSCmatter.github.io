@@ -9,7 +9,7 @@ profile:
   image: sd.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Software Engineer</p>
+    <p>Student/Software Engineer</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,10 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Vasant, a CS student and building things at the intersection of software, AI, and backend infrastructure.
+It started with video games in the 2010s -the curiosity of what was happening behind the screen outlasted every game I finished. 
 
-I've worked as a software engineer at The Tinkering Society, building a decentralized fact-verification protocol on Base L2, and previously interned at Metry AI where I rebuilt their website and worked on a churn prediction pipeline. I also contribute to open source when something interesting comes up.
+That pulled me into Computer Science, then into building real systems, then somehow into a software engineering role before I'd graduated. 
 
-Most of my work lives on GitHub under [DSCmatter](https://github.com/DSCmatter), where you'll find projects ranging from deep learning models to distributed systems. I'm always open to conversations, collaboration, or just talking about interesting problems in software and systems design.
+One thing led to another, the way it usually does when you can't stop asking how something works.
 
-Outside of code, I game, read fantasy novels, and occasionally write them.
+Outside of code, I game, read fantasy novels, and occasionally write them when I feel like it.
