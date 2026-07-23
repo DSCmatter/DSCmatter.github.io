@@ -130,7 +130,7 @@ ninja.data = [{
               window.location.href = "/projects/aegiscc/";
             },},{id: "projects-agentic-firewall",
           title: 'Agentic Firewall',
-          description: "An intelligent firewall system with agent-based decision making",
+          description: "MCP policy gateway and independent OWASP red-team security benchmark for AI agent tool calls",
           section: "Projects",handler: () => {
               window.location.href = "/projects/agentic_firewall/";
             },},{id: "projects-dry-fruit-grade-classification",
@@ -153,6 +153,11 @@ ninja.data = [{
           description: "AI-powered fact-checking system with evidence-backed explanations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/verifact/";
+            },},{id: "projects-vigil",
+          title: 'Vigil',
+          description: "AI-first bug triage platform that turns real user sessions into developer-ready GitHub issues",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vigil/";
             },},{id: "projects-watcherx",
           title: 'WatcherX',
           description: "A skeleton based around a video-sharing platform which enables users to upload, process, and share videos efficiently.",
