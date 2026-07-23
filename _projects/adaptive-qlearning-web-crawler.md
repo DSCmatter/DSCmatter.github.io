@@ -10,57 +10,62 @@ github: https://github.com/DSCmatter/adaptive-qlearning-web-crawler
 
 ![alt text](https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyOWxxcWhodnFjMXQwYmtqMjhubGU2b2hyMjh4bWRqeGNnODk0ZTIwZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/aUPfvs5MOXpxm/200w.gif)
 
-A novel hybrid approach to focused web crawling that combines three complementary AI techniques for intelligent link selection and web navigation.
+Research implementation of a focused web crawler that combines adaptive Q-learning, LinUCB contextual bandits, and graph neural network embeddings for topic-directed crawl decisions. The project is structured for reproducible experimentation, with seeded datasets, train/validation/test splits, model checkpoints, evaluation scripts, and phase reports all included under versioned project folders.
+
+Paper: [Adaptive Q-Learning Web Crawler](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-UYKXd0AAAAJ&citation_for_view=-UYKXd0AAAAJ:u5HHmVD_uO8C) 
+
+### Problem Statement
+
+Focused web crawling tries to maximize the number of topic-relevant pages discovered under a limited crawl budget. Static policies such as random crawling, best-first heuristics, or PageRank-based traversal waste requests when topical relevance depends on page context, link anchor text, and graph structure. This project formulates crawling as a sequential decision problem: a Q-learning policy decides whether to continue or stop, a contextual bandit ranks candidate outgoing links when continuing, and a frozen GraphSAGE encoder supplies structural page embeddings from the bootstrap web graph.
 
 ### Key Features
-- **Hybrid RL Architecture**: Integrates Q-Learning, Contextual Bandits (LinUCB), and Graph Neural Networks (GNNs)
-- **Graph-Aware Navigation**: GraphSAGE-based node embeddings capture web topology and structural information
-- **Intelligent Link Selection**: LinUCB bandit algorithm balances exploration-exploitation for efficient link discovery
-- **Value-Based Learning**: Q-Learning provides long-term navigation strategy and reward optimization
-- **Contextual Decisions**: Fast convergence using contextual information from web graph structure
-- **Research-Backed**: Based on peer-reviewed papers on RL-based web crawling and focused crawlers
-- **Student-Friendly**: $0.10 total cost, CPU-only, no GPU required, 60-70% harvest rate
 
-### How It Works
-1. **Graph Construction**: Builds web graph from seed URLs with node/edge features
-2. **GNN Pre-training**: GraphSAGE learns structural embeddings from web topology (frozen for stability)
-3. **Q-Agent Training**: Learns navigation strategy through offline simulation environment
-4. **Link Selection**: LinUCB contextual bandit selects promising links with exploration-exploitation balance
-5. **Reward Signal**: Positive rewards for target-domain discoveries, penalties for inefficient navigation
-6. **Adaptive Crawling**: System dynamically improves link selection based on cumulative rewards
+- **Hybrid RL Architecture**: Combines Q-Learning for stop/continue decisions, LinUCB contextual bandits for link selection, and a frozen GraphSAGE encoder for structural context
+- **69-Dimensional State Space**: GNN embeddings, budget remaining, relevant pages found, crawl depth, running reward, and exploration rate
+- **174-Dimensional Link Context**: GNN embedding, URL features, content features, anchor text features, and graph features (in-degree, out-degree, PageRank)
+- **Reward Shaping**: Rewards relevance and novel domains, penalizes duplicates, fetch time, and excessive depth
+- **Reproducible Benchmark Suite**: Seven baselines compared under fixed seeds, with raw JSON and Markdown result tables committed to the repo
 
-### How it works (simple)
-Think of it like a person browsing Wikipedia trying to stay on the topic of Machine Learning.
+### How It Works (Simple Version)
 
-GNN — gives the crawler a map of where it is. "I'm in this neighborhood of the web, these pages are nearby." Frozen after training, just used for context.
-Bandit (LinUCB) — when the crawler sees 50 links on a page, this picks the best one. Like a slot machine learner, it balances "go with what's worked before" vs "try something new."
-Q-Learning — the boss layer. After each page, it decides: keep going or stop? Prevents the crawler from going down rabbit holes and wasting time.
+Think of it like someone browsing Wikipedia while trying to stay on the topic of machine learning.
 
-### The loop
+- **GNN** gives the crawler a map of where it is. "I'm in this neighborhood of the web, these pages are nearby." Frozen after pre-training, used only for context.
+- **LinUCB bandit** picks the best link when the crawler sees a page full of candidates, balancing what has worked before against what's worth trying.
+- **Q-Learning** is the boss layer. After each page, it decides whether to keep going or stop, which keeps the crawler from wandering down rabbit holes.
 
-visit page → look at links → Q-agent says continue → bandit picks best link → visit that page → repeat
+The loop: visit page → look at links → Q-agent decides continue or stop → bandit picks best link → visit that page → repeat.
 
 ### Technologies Used
+
 - **Reinforcement Learning**: Q-Learning, Contextual Bandits (LinUCB)
 - **Graph Neural Networks**: PyTorch, GraphSAGE (SAGEConv)
-- **Framework**: PyTorch for deep learning
-- **Web Technology**: HTTP crawling, BeautifulSoup for HTML parsing
-- **Data Processing**: Pandas, NumPy for preprocessing
-- **Language**: Python (100% of codebase)
+- **Data Processing**: Pandas, NumPy
+- **Language**: Python
+
+### Results
+
+Canonical strict benchmark, run with `python experiments/evaluate_baseline.py --max-pages 10 --runs-per-seed 2 --max-seeds-per-topic 2 --random-seed 42`:
+
+| Crawler | Harvest Rate | Avg Reward | Crawl Time (s) |
+| --- | ---: | ---: | ---: |
+| random | 0.108 | 0.55 | 21.84 |
+| best_first | 0.133 | 0.84 | 22.50 |
+| pagerank | 0.100 | 0.48 | 19.06 |
+| pure_q | 0.958 | 11.21 | 2.77 |
+| pure_bandit | 0.100 | 0.45 | 27.29 |
+| hybrid_no_gnn | 1.000 | 11.72 | 2.56 |
+| hybrid | 0.117 | 0.69 | 25.65 |
+
+In this snapshot, `hybrid_no_gnn` is the strongest production policy, with `pure_q` as a reliable fallback. The full `hybrid` path (Q-learning plus LinUCB plus GNN together) is still experimental. Diagnostics show the second-step LinUCB selection repeatedly choosing irrelevant pages, which is an open problem rather than a finished result.
 
 ### Research Foundation
-Based on peer-reviewed research papers:
-- Tree-based Focused Web Crawling with Reinforcement Learning (2021)
-- Deep Reinforcement Learning for Web Crawling (2021)
-- Efficient Deep Web Crawling Using Reinforcement Learning (2010) - 59 citations
-- Learning to Crawl Deep Web (2013) - 71 citations
 
-### Performance Metrics
-- **Coverage**: 60-70% harvest rate (publishable results)
-- **Efficiency**: High coverage with minimal crawl cost through adaptive link selection
-- **Training**: 3-4 days on CPU only (runs overnight on standard laptops)
-- **Resource Usage**: 8GB RAM sufficient, works on older hardware
-- **Convergence**: Fast convergence through contextual information from graph structure
+Grounded in prior work on RL-based focused crawling:
+- Tree-based Focused Web Crawling with Reinforcement Learning, Kontogiannis et al., 2021
+- Deep Reinforcement Learning for Web Crawling, Avrachenkov, Borkar, and Patil, 2021
+- Efficient Deep Web Crawling Using Reinforcement Learning, Jiang et al., 2010
+- Learning to Crawl Deep Web, Zheng et al., 2013
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

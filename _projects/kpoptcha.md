@@ -8,6 +8,8 @@ category: fun
 github: https://github.com/DSCmatter/kpoptcha
 ---
 
+![alt text](https://media.tenor.com/Er8pYKvKG80AAAAM/lisa-blackpink.gif)
+
 A fun, K-pop themed alternative to traditional CAPTCHA verification. Instead of selecting traffic lights or crosswalks, users identify K-pop idols to prove they are human!
 
 ### Key Features

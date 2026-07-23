@@ -2,8 +2,7 @@
   "basics": {
     "name": "Vasant Kumar Mogia",
     "image": "mypic.jpg",
-    "email": "vasant.mogia@gmail.com",
-    "url": "https://dscmatter.me/"
+    "email": "vasant.mogia@gmail.com"
   },
   "education": [
     {
@@ -38,69 +37,94 @@
   ],
   "work": [
     {
-      "position": "Software Engineer (Contract)",
-      "name": "The Tinkering Society",
+      "position": "Software Engineer Intern",
+      "name": "QuarterMill",
       "location": "Remote",
-      "startDate": "2026-02",
+      "startDate": "2026-06",
+      "endDate": "2026-08",
       "description": []
     },
     {
-      "position": "Undergraduate Research Assistant",
+      "position": "Software Engineer Intern",
+      "name": "The Tinkering Society",
+      "location": "Remote",
+      "startDate": "2026-02",
+      "endDate": "2026-05",
+      "description": []
+    },
+    {
+      "position": "Undergraduate Researcher",
       "name": "Madhav Institute of Technology and Science",
       "location": "Gwalior, Madhya Pradesh",
       "startDate": "2026-01",
+      "endDate": "2026-04",
       "description": []
     },
     {
       "position": "Software Engineer Intern",
       "name": "Metry AI",
-      "location": "Remote (Canada)",
+      "location": "Remote",
       "startDate": "2025-09",
       "endDate": "2026-02",
-      "description": []
-    },
-    {
-      "position": "Student Researcher",
-      "name": "Madhav Institute of Technology and Science",
-      "location": "Gwalior, Madhya Pradesh",
-      "startDate": "2025-07",
-      "endDate": "2025-11",
       "description": []
     }
   ],
   "skills": [
-    {
-      "name": "Programming",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "Go",
-        "TypeScript",
-        "C++"
-      ]
-    },
-    {
-      "name": "Technologies",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Git",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Firebase",
-        "PostgreSQL",
-        "DynamoDB",
-        "SQLite",
-        "Node.js",
-        "Express.js",
-        "Next.js",
-        "ethers.js",
-        "TensorFlow",
-        "Bash",
-        "Linux"
-      ]
-    }
-  ],
+      {
+        "name": "Languages",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": [
+          "Python",
+          "TypeScript",
+          "JavaScript",
+          "Go",
+          "C++"
+        ]
+      },
+      {
+        "name": "Frameworks & Tools",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": [
+          "React",
+          "Next.js",
+          "Node.js",
+          "Hono",
+          "Express.js",
+          "ethers.js",
+          "PyTorch",
+          "Tailwind CSS",
+          "Docker",
+          "GitHub Actions",
+          "CI/CD"
+        ]
+      },
+      {
+        "name": "AI / LLM",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": [
+          "Anthropic SDK",
+          "LLM Agents",
+          "Instructor",
+          "Pydantic",
+          "Langfuse",
+          "Model Context Protocol (MCP)",
+          "RAG",
+          "NLP/NLI",
+          "AI Fluency"
+        ]
+      },
+      {
+        "name": "Cloud & Databases",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": [
+          "AWS (DynamoDB, SES, Lambda, S3, Bedrock)",
+          "GCP (Cloud Run, Pub/Sub, Cloud Functions, Firestore)",
+          "PostgreSQL",
+          "SQLite",
+          "Firebase"
+        ]
+      }
+    ],
   "languages": [
     {
       "language": "Hindi",
@@ -111,6 +135,15 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Adaptive Q-Learning Web Crawler: A Hybrid Reinforcement Learning Approach to Focused Crawling",
+      "url": "https://scholar.google.com/citations?hl=en&user=-UYKXd0AAAAJ",
+      "publisher": "Preprint",
+      "releaseDate": "2026-04",
+      "summary": "A hybrid reinforcement learning approach combining Q-learning with focused web crawling for intelligent navigation and content discovery."
     }
   ],
   "interests": [
