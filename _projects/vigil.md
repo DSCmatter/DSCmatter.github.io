@@ -10,8 +10,6 @@ github: https://github.com/Psionic-labs/Vigil
 
 ![alt text](https://media.tenor.com/nCHqq_-6QdEAAAAM/observe-and-report-watch-closely.gif)
 
-<img src="docs/images/system-architecture.png" class="img-fluid rounded z-depth-1" alt="Vigil System Architecture">
-
 A full-stack observability platform that watches real user sessions, detects broken UX automatically, and turns failures into developer-ready GitHub issues. Vigil is not a session replay tool. Replay is evidence. The product is the AI triage loop that decides what is actually broken and writes the bug report for you.
 
 ### Key Features
