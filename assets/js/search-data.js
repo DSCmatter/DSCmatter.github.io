@@ -128,6 +128,11 @@ ninja.data = [{
           description: "A minimalistic x86-64 JIT compiler demonstrating dynamic machine code generation and execution",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aegiscc/";
+            },},{id: "projects-agent-causality",
+          title: 'Agent-Causality',
+          description: "Causal debugging for branching multi-agent systems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/agent-causality/";
             },},{id: "projects-agentic-firewall",
           title: 'Agentic Firewall',
           description: "MCP policy gateway and independent OWASP red-team security benchmark for AI agent tool calls",
