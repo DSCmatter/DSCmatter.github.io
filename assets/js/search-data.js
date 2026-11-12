@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "My growing collection of cool projects.",
@@ -115,8 +122,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Thousand_eons_of_world/";
-            },},{id: "news-",
-          title: '',
+            },},{id: "news-released-a-preprint-on-an-adaptive-q-learning-web-crawler-for-focused-crawling",
+          title: 'Released a preprint on an adaptive Q-learning web crawler for focused crawling.',
+          description: "",
+          section: "News",},{id: "news-joined-quartermill-as-an-ai-engineer-intern-working-on-infrastructure-for-document-verification-and-structured-reasoning",
+          title: 'Joined QuarterMill as an AI Engineer Intern, working on infrastructure for document verification...',
+          description: "",
+          section: "News",},{id: "news-released-the-agent-causality-preprint-on-tracing-failures-in-multi-agent-systems",
+          title: 'Released the Agent-Causality preprint on tracing failures in multi-agent systems.',
           description: "",
           section: "News",},{id: "projects-adaptive-q-learning-web-crawler",
           title: 'Adaptive Q-Learning Web Crawler',
