@@ -22,7 +22,13 @@ announcements:
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Senior CS student, graduating in May 2027. My work spans **AI agent infrastructure, verification systems, and backend**. Previously, I was an **AI Engineer Intern at QuarterMill**, where I built agent infrastructure for document verification, structured reasoning, and multilingual document processing. **At The Tinkering Society**, I worked as a **Software Engineer Intern** and built an autonomous fact verification engine for decentralized fact checking and on-chain execution. I was also an **Undergraduate Researcher** at my institute, where I co-authored a paper on an adaptive Q-learning web crawler for focused crawling. Before that, I interned as a **Software Engineer at Metry AI**, working with backend, frontend, and AI teams on growth infrastructure for internationalization, customer segmentation, and engagement automation.
+I am a Senior CS student graduating May 2027, focused on **AI agent infrastructure, verification systems, and backend**. 
+
+As an **AI Engineer Intern at QuarterMill**, I built agent infrastructure for document verification, structured reasoning, and multilingual processing. 
+
+At **The Tinkering Society**, I built an autonomous fact verification engine for decentralized fact checking and on-chain execution. 
+
+As an **Undergraduate Researcher**, I co-authored a paper on an adaptive Q-learning web crawler. Earlier, at **Metry AI**, I worked across backend, frontend, and AI on growth infrastructure.
 
 My work focuses on making AI agents dependable:
 

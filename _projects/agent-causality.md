@@ -10,8 +10,6 @@ github: https://github.com/Psionic-labs/Agent-Causality
 
 ![](https://i.makeagif.com/media/3-08-2026/D8Hi8K.gif)
 
-![The Agent-Causality visual explorer showing a captured run as a graph, with the failing event selected and its causal parents highlighted.]({{ '/assets/img/agent-causality.png' | relative_url }})
-
 An AI system built from several agents is easy to record and hard to debug. A log tells you what happened, in order. It does not tell you which earlier events a failure depends on. Agent-Causality records a run as a graph of events with explicit parent links, then works backward from the failure to the events it is connected to, and tests whether replaying a recorded input a different way would have changed the outcome.
 
 It is open source, published as `agent-causality` on PyPI and as an OpenCode capture plugin on npm.
