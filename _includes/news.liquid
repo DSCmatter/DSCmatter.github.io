@@ -24,7 +24,7 @@
             {% endif %}
           {% endif %}
           <tr>
-            <th scope="row" style="width: 20%">{{ display_date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 20%">{{ display_date | date: '%b %Y' }}</th>
             <td>
               {% if item.latest_post and latest_post %}
                 <a class="news-title" href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a>

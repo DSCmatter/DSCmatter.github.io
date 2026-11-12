@@ -31,7 +31,10 @@
         "Soft Computing",
         "Artificial Intelligence & Machine Learning",
         "Data Warehousing & Data Mining",
-        "Information Retrieval System"
+        "Information Retrieval System",
+        "Software Testing", 
+        "Big Data Computing",
+        "IoT and Technologies"
       ]
     }
   ],
@@ -144,6 +147,13 @@
       "publisher": "Preprint",
       "releaseDate": "2026-04",
       "summary": "A hybrid reinforcement learning approach combining Q-learning with focused web crawling for intelligent navigation and content discovery."
+    },
+    {
+      "name": "Agent-Causality: Declared Dependency Tracing and Counterfactual Sensitivity Analysis for Multi-Agent Systems",
+      "url": "https://psionic-labs.github.io/Agent-Causality/agentic_causality_paper.pdf",
+      "publisher": "Preprint",
+      "releaseDate": "2026-10",
+      "summary": "A novel approach to analyzing the causal relationships between agents in multi-agent systems, using declared dependency tracing and counterfactual sensitivity analysis."
     }
   ],
   "interests": [

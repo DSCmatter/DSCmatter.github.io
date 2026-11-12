@@ -2,11 +2,13 @@
 layout: page
 title: Agent-Causality
 description: Causal debugging for branching multi-agent systems
-img: assets/img/agent-causality.png
+img: assets/img/agent-meme.png
 importance: 1
 category: work
 github: https://github.com/Psionic-labs/Agent-Causality
 ---
+
+![](https://i.makeagif.com/media/3-08-2026/D8Hi8K.gif)
 
 ![The Agent-Causality visual explorer showing a captured run as a graph, with the failing event selected and its causal parents highlighted.]({{ '/assets/img/agent-causality.png' | relative_url }})
 
